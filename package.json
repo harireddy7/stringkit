@@ -1,5 +1,5 @@
 {
-  "name": "stringkit",
+  "name": "@harikotha/stringkit",
   "version": "1.0.0",
   "description": "A collection of JavaScript string helper functions",
   "main": "dist/index.js",
