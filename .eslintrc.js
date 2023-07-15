@@ -1,6 +1,6 @@
 const [OFF, , ERROR] = [0, 1, 2];
 
-export default {
+module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'prettier'],
   extends: [
