@@ -1,10 +1,8 @@
-# Run the unit tests on push/PR merge to main branch
+# Run the unit tests on Pull Request to main branch
 
 name: Run unit tests
 
 on:
-  push:
-    branches: [ main ]
   pull_request:
       branches: [ main ]
 
