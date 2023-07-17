@@ -26,7 +26,6 @@
   },
   "lint-staged": {
     "*.{js,ts}": [
-      "node -v",
       "yarn lint:fix"
     ]
   },
