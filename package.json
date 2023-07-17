@@ -16,7 +16,7 @@
   },
   "scripts": {
     "zip": "zip -r dist.zip dist/",
-    "build": "yarn lint:fix && tsc",
+    "build": "yarn lint:fix && tsc && yarn zip",
     "test": "jest --coverage",
     "test:watch": "jest --watchAll --coverage",
     "lint": "eslint .",
