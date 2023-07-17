@@ -16,6 +16,7 @@
   },
   "scripts": {
     "build": "yarn lint:fix && yarn test && tsc",
+    "build:ci": "tsc",
     "test": "jest --coverage",
     "test:watch": "jest --watchAll --coverage",
     "lint": "eslint .",
