@@ -10,3 +10,13 @@
 ### Features
 
 * add repeat helper function ([49d3c99](https://github.com/harireddy7/stringkit/commit/49d3c994c8687d6218de22ab1ee00c86644c751d))
+
+# [1.0.1](https://github.com/harireddy7/stringkit/compare/v1.0.0...v1.0.1) (2023-07-17)
+
+
+### Bug Fixes
+
+* set package access to public ([69c33db](https://github.com/harireddy7/stringkit/commit/69c33dbf74e29b019514f52678768243f2079044))
+
+
+
