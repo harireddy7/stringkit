@@ -17,6 +17,14 @@ const text = reverse('geralt'); // tlareg
 const text = reverse('have a good-day  '); // '  yad doog a evah'
 ```
 
+### 3. reepat
+
+```js
+const text = repeat('*', 5) // *****
+const text = repeat('cool', 3) // coolcoolcool
+const text = repeat('hey', 0) // ''
+```
+
 ## Installation
 
 stringkit requires node.js v18 to run
