@@ -22,7 +22,7 @@
     "lint": "eslint .",
     "lint:js": "eslint src/ --fix",
     "lint:fix": "eslint --fix && prettier --write \"src/**/*.{js,ts}\"",
-    "pretty": "prettier --write \"src/**/*.{js,ts}\" \"tests/src/*.{js,ts}\"",
+    "pretty": "prettier --write \"src/**/*.{js,ts,test.ts,test.js}\"",
     "prepare": "husky install"
   },
   "lint-staged": {

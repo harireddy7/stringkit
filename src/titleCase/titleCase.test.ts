@@ -1,6 +1,6 @@
 import { titleCase } from './titleCase';
 
-describe('titleCase', () => {
+describe('titleCase function', () => {
   it('returns the text in title case', () => {
     const favShow = titleCase('tHE wiTcheR');
     expect(favShow).toStrictEqual('The Witcher');

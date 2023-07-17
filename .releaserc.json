@@ -16,20 +16,33 @@
             "@semantic-release/release-notes-generator"
         ],
         [
-            "@semantic-release/npm", {
+            "@semantic-release/changelog",
+            {
+                "changelogFile": "CHANGELOG.md"
+            }
+        ],
+        [
+            "@semantic-release/npm",
+            {
                 "npmPublish": true
             }
         ],
         [
-            "@semantic-release/github", {
-                "assets": [{
-                    "path": "dist.zip",
-                    "label": "dist-${nextRelease.gitTag}.zip"
-                }]
+            "@semantic-release/github",
+            {
+                "assets": [
+                    {
+                        "path": "dist.zip",
+                        "label": "dist-${nextRelease.gitTag}.zip"
+                    }
+                ]
             }
         ],
         [
-            "@semantic-release/git"
+            "@semantic-release/git",
+            {
+                "assets": ["dist/**/*.{js,css}", "CHANGELOG.md", "package.json"]
+            }
         ]
     ]
 }

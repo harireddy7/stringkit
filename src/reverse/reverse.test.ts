@@ -1,6 +1,6 @@
 import { reverse } from './reverse';
 
-describe('reverse', () => {
+describe('reverse function', () => {
   it('returns the reversed text', () => {
     const name = reverse('geralt of rivia');
     expect(name).toStrictEqual('aivir fo tlareg');
