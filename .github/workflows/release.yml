@@ -22,7 +22,7 @@ jobs:
       - name: Setup Node v18.x
         uses: actions/setup-node@v1
         with:
-          node_version: 18
+          node-version: 18.x
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile && yarn add -D semantic-release @semantic-release/git @semantic-release/changelog
