@@ -1,6 +1,6 @@
-# test, build, release to github & npm
-# generate release notes, changelog
+# test, build, generate release notes, changelog
 # bump version in package.json
+# release to github & npm
 # when a push happens to main branch
 
 name: Release
@@ -11,7 +11,6 @@ on:
 
 jobs:
   release:
-    runs_on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
