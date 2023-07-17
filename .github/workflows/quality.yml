@@ -4,7 +4,7 @@ name: Run unit tests
 
 on:
   pull_request:
-      branches: [ main ]
+    branches: [ main ]
 
 jobs:
   run_unit_tests:
@@ -16,4 +16,4 @@ jobs:
           node-version: 18
       - run: yarn install --frozen-lockfile
       - run: yarn test
-      - run: yarn build:ci
+      - run: yarn build
