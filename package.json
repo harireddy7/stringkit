@@ -15,8 +15,8 @@
     "preset": "ts-jest"
   },
   "scripts": {
-    "build": "yarn lint:fix && yarn test && tsc",
-    "build:ci": "tsc",
+    "zip": "zip -r dist.zip dist/",
+    "build": "yarn lint:fix && tsc",
     "test": "jest --coverage",
     "test:watch": "jest --watchAll --coverage",
     "lint": "eslint .",
